@@ -1,0 +1,42 @@
+body{
+    font-family: "Droin-sans", sans-serif;
+    background-image:url(colorful-triangles-background_yB0qTG6.jpg);
+    
+}
+
+form{
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    
+    
+}
+input[type=text] {
+    font-size: 30px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 5px solid rgb(28, 119, 102);
+    border-radius: 30px;
+    background-color: rgb(52, 202, 170);
+    color: white;
+    text-align: center;
+     -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s linear;
+    
+}
+input[type=text]:focus {
+    border: 8px solid rgba(11, 42, 39, 1);
+    border-radius: 30px;
+    width: 33%;
+}
+p{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    margin: 100px 0px;
+}
